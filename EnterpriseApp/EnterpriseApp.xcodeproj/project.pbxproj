@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		86CB8DBEE394C94046F63BC5 /* Pods_EnterpriseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C610395BA14A7795666E0B9A /* Pods_EnterpriseApp.framework */; };
-		CE6DFA9C21B6BF5400CAA32A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFA9A21B6BF5400CAA32A /* LoginViewController.swift */; };
-		CE6DFA9D21B6BF5400CAA32A /* LoginModalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFA9B21B6BF5400CAA32A /* LoginModalClass.swift */; };
 		CE6DFAB921B6BFC400CAA32A /* CreateEventUnit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFA9F21B6BFBE00CAA32A /* CreateEventUnit+CoreDataProperties.swift */; };
 		CE6DFABA21B6BFC400CAA32A /* CreateEventCustDataInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFAA021B6BFBF00CAA32A /* CreateEventCustDataInfo+CoreDataClass.swift */; };
 		CE6DFABB21B6BFC400CAA32A /* BarcodeEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFAA121B6BFBF00CAA32A /* BarcodeEntry+CoreDataClass.swift */; };
@@ -79,6 +77,8 @@
 		CE6DFB3821B6C43800CAA32A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFB3421B6C43800CAA32A /* CameraView.swift */; };
 		CE6DFB3C21B6C47200CAA32A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFB3B21B6C47200CAA32A /* Utility.swift */; };
 		CE6DFB3F21B6C49100CAA32A /* TitleAndTextFieldview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DFB3E21B6C49100CAA32A /* TitleAndTextFieldview.swift */; };
+		CE86FA2B21B6E2CA00D4BF72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86FA2921B6E2CA00D4BF72 /* LoginViewController.swift */; };
+		CE86FA2C21B6E2CA00D4BF72 /* LoginModalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86FA2A21B6E2CA00D4BF72 /* LoginModalClass.swift */; };
 		CE95F86421B6D30400FBAA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE95F86221B6D30400FBAA62 /* Main.storyboard */; };
 		CE96468E21B6A95300F14066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96468D21B6A95300F14066 /* AppDelegate.swift */; };
 		CE96469621B6A95300F14066 /* EnterpriseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE96469421B6A95300F14066 /* EnterpriseApp.xcdatamodeld */; };
@@ -116,8 +116,6 @@
 		B775C40D84756415E7A77BD5 /* Pods_EnterpriseAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnterpriseAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE64276CE5AB60A248DEF9E8 /* Pods_EnterpriseAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnterpriseAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610395BA14A7795666E0B9A /* Pods_EnterpriseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnterpriseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DFA9A21B6BF5400CAA32A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CE6DFA9B21B6BF5400CAA32A /* LoginModalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModalClass.swift; path = LoginModalClass.swift; sourceTree = "<group>"; };
 		CE6DFA9F21B6BFBE00CAA32A /* CreateEventUnit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateEventUnit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CE6DFAA021B6BFBF00CAA32A /* CreateEventCustDataInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateEventCustDataInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CE6DFAA121B6BFBF00CAA32A /* BarcodeEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BarcodeEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -188,6 +186,8 @@
 		CE6DFB3421B6C43800CAA32A /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		CE6DFB3B21B6C47200CAA32A /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		CE6DFB3E21B6C49100CAA32A /* TitleAndTextFieldview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleAndTextFieldview.swift; sourceTree = "<group>"; };
+		CE86FA2921B6E2CA00D4BF72 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE86FA2A21B6E2CA00D4BF72 /* LoginModalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModalClass.swift; sourceTree = "<group>"; };
 		CE95F86321B6D30400FBAA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE96468A21B6A95300F14066 /* EnterpriseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterpriseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE96468D21B6A95300F14066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -258,8 +258,8 @@
 		CE6DFA9921B6BF0B00CAA32A /* LoginViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CE6DFA9B21B6BF5400CAA32A /* LoginModalClass.swift */,
-				CE6DFA9A21B6BF5400CAA32A /* LoginViewController.swift */,
+				CE86FA2A21B6E2CA00D4BF72 /* LoginModalClass.swift */,
+				CE86FA2921B6E2CA00D4BF72 /* LoginViewController.swift */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -785,7 +785,6 @@
 				CE6DFAC121B6BFC400CAA32A /* CreateEventUnitUnitDetail+CoreDataProperties.swift in Sources */,
 				CE6DFB2021B6C33000CAA32A /* ENCheckExisitingServiceViewController.swift in Sources */,
 				CE6DFAED21B6C12C00CAA32A /* InspectionQuestionByIDHelper.swift in Sources */,
-				CE6DFA9D21B6BF5400CAA32A /* LoginModalClass.swift in Sources */,
 				CE6DFACC21B6BFC400CAA32A /* CreateEventDriver+CoreDataProperties.swift in Sources */,
 				CE6DFB2F21B6C36F00CAA32A /* WebHandler.swift in Sources */,
 				CE6DFACD21B6BFC400CAA32A /* LoginResponse+CoreDataClass.swift in Sources */,
@@ -796,10 +795,10 @@
 				CE6DFAE221B6C0D800CAA32A /* UIViewController+Utility.swift in Sources */,
 				CE6DFAF721B6C17F00CAA32A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				CE6DFAEF21B6C12C00CAA32A /* ResponseDataDelegate.swift in Sources */,
-				CE6DFA9C21B6BF5400CAA32A /* LoginViewController.swift in Sources */,
 				CE6DFAF121B6C12C00CAA32A /* LoginHelper.swift in Sources */,
 				CE6DFAD121B6BFC400CAA32A /* CreateEventCallData+CoreDataClass.swift in Sources */,
 				CE6DFAE321B6C0D800CAA32A /* ConnectionManager.swift in Sources */,
+				CE86FA2B21B6E2CA00D4BF72 /* LoginViewController.swift in Sources */,
 				CE6DFB2D21B6C36F00CAA32A /* Reachability.swift in Sources */,
 				CE6DFB2E21B6C36F00CAA32A /* ConstantData.swift in Sources */,
 				CE6DFB0E21B6C23400CAA32A /* ENRequestServiceViewController.swift in Sources */,
@@ -839,6 +838,7 @@
 				CE6DFAC521B6BFC400CAA32A /* CreateEventContact+CoreDataProperties.swift in Sources */,
 				CE6DFAE521B6C0D800CAA32A /* Date+Utility.swift in Sources */,
 				CE6DFB0321B6C1F100CAA32A /* ENHamBurgerViewController.swift in Sources */,
+				CE86FA2C21B6E2CA00D4BF72 /* LoginModalClass.swift in Sources */,
 				CE6DFB3F21B6C49100CAA32A /* TitleAndTextFieldview.swift in Sources */,
 				CE96469621B6A95300F14066 /* EnterpriseApp.xcdatamodeld in Sources */,
 				CE6DFACA21B6BFC400CAA32A /* CreateEventNote+CoreDataClass.swift in Sources */,
