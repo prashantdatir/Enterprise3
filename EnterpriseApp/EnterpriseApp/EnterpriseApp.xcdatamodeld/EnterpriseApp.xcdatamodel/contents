@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BarcodeEntry" representedClassName="BarcodeEntry" syncable="YES">
+        <attribute name="scannedData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventAddressInfo" representedClassName="CreateEventAddressInfo" syncable="YES">
+        <attribute name="activityLogId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="eventNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CreateEventCallData" representedClassName="CreateEventCallData" syncable="YES"/>
+    <entity name="CreateEventContact" representedClassName="CreateEventContact" syncable="YES"/>
+    <entity name="CreateEventCustDataInfo" representedClassName="CreateEventCustDataInfo" syncable="YES"/>
+    <entity name="CreateEventDriver" representedClassName="CreateEventDriver" syncable="YES"/>
+    <entity name="CreateEventLocation" representedClassName="CreateEventLocation" syncable="YES"/>
+    <entity name="CreateEventNote" representedClassName="CreateEventNote" syncable="YES"/>
+    <entity name="CreateEventUnit" representedClassName="CreateEventUnit" syncable="YES"/>
+    <entity name="CreateEventUnitUnitDetail" representedClassName="CreateEventUnitUnitDetail" syncable="YES"/>
+    <entity name="CreateEventUnitUnitRental" representedClassName="CreateEventUnitUnitRental" syncable="YES"/>
+    <entity name="CreateEvetnUnitUnitNote" representedClassName="CreateEvetnUnitUnitNote" syncable="YES"/>
+    <entity name="LoginResponse" representedClassName="LoginResponse" syncable="YES"/>
+    <elements>
+        <element name="BarcodeEntry" positionX="36" positionY="81" width="128" height="60"/>
+        <element name="CreateEventAddressInfo" positionX="27" positionY="72" width="128" height="255"/>
+        <element name="CreateEventCallData" positionX="18" positionY="63" width="128" height="45"/>
+        <element name="CreateEventContact" positionX="9" positionY="54" width="128" height="45"/>
+        <element name="CreateEventCustDataInfo" positionX="0" positionY="45" width="128" height="45"/>
+        <element name="CreateEventDriver" positionX="-9" positionY="36" width="128" height="45"/>
+        <element name="CreateEventLocation" positionX="-18" positionY="27" width="128" height="45"/>
+        <element name="CreateEventNote" positionX="27" positionY="72" width="128" height="45"/>
+        <element name="CreateEventUnit" positionX="9" positionY="54" width="128" height="45"/>
+        <element name="CreateEventUnitUnitDetail" positionX="-9" positionY="36" width="128" height="45"/>
+        <element name="CreateEventUnitUnitRental" positionX="-27" positionY="18" width="128" height="45"/>
+        <element name="CreateEvetnUnitUnitNote" positionX="-45" positionY="0" width="128" height="45"/>
+        <element name="LoginResponse" positionX="-63" positionY="-18" width="128" height="45"/>
+    </elements>
+</model>
