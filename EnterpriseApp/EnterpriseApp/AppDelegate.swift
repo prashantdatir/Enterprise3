@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+import GooglePlaces
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        MagicalRecord.setupCoreDataStack()
+        if #available(iOS 10.0, *) {
+            UINavigationBar.appearance().barTintColor = UIColor(displayP3Red: 1/255, green: 146/255, blue: 85/255, alpha: 1)
+        } else {
+            // Fallback on earlier versions
+        }
+        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        let loginVC : LoginViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        
+        let masterVC : ENMasterViewController = storyBoard.instantiateViewController(withIdentifier: "ENMasterViewController") as! ENMasterViewController
+        
+        let EventStatusVC : ENCheckExisitingServiceViewController = storyBoard.instantiateViewController(withIdentifier: "ENCheckExisitingServiceViewController") as! ENCheckExisitingServiceViewController
+        //let loginVC : ENCheckExisitingServiceViewController = storyBoard.instantiateViewController(withIdentifier: "ENCheckExisitingServiceViewController") as! ENCheckExisitingServiceViewController
+        
+        
+        let navVC : UINavigationController = UINavigationController()
+        navVC.setViewControllers([loginVC], animated: false)
+        //navVC.setViewControllers([masterVC], animated: false)
+        
+        self.window?.rootViewController = navVC
+        
+        
+        
+        
+        GMSServices.provideAPIKey("AIzaSyAjv2xvxKxP_hbmhq2xBXen7uurxCC4bzI")
+        GMSPlacesClient.provideAPIKey("AIzaSyAjv2xvxKxP_hbmhq2xBXen7uurxCC4bzI")
+        
+        
         return true
     }
 
