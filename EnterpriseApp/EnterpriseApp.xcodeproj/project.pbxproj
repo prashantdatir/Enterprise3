@@ -527,6 +527,8 @@
 				CE96468621B6A95300F14066 /* Sources */,
 				CE96468721B6A95300F14066 /* Frameworks */,
 				CE96468821B6A95300F14066 /* Resources */,
+				D6831DEB9E9504EBFA3246B3 /* [CP] Embed Pods Frameworks */,
+				E1CCAF2B06BEF309AE9ADC49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
