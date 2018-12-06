@@ -39,12 +39,12 @@ PODS:
   - TPKeyboardAvoidingSwift (1.0)
 
 DEPENDENCIES:
-  - Cosmos (~> 17.0)
+  - Cosmos
   - GoogleMaps
   - GooglePlaces
   - MagicalRecord
   - MaterialComponents/Buttons
-  - SkyFloatingLabelTextField (~> 3.0)
+  - SkyFloatingLabelTextField
   - SVProgressHUD
   - TPKeyboardAvoidingSwift
 

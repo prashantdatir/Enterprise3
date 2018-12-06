@@ -12,9 +12,9 @@ pod 'SVProgressHUD'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 pod 'MagicalRecord'
-pod 'Cosmos', '~> 17.0'
+pod 'Cosmos'
 #pod 'IQKeyboardManagerSwift'
-pod 'SkyFloatingLabelTextField', '~> 3.0'
+pod 'SkyFloatingLabelTextField'
 pod 'MaterialComponents/Buttons'
 
   target 'EnterpriseTests' do
