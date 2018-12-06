@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SVProgressHUD
+//import SVProgressHUD
 
 class GetCompletedEventListHelper: NSObject {
 

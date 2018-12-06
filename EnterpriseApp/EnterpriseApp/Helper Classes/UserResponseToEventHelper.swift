@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SVProgressHUD
+//import SVProgressHUD
 
 class UserResponseToEventHelper: NSObject {
   
@@ -50,7 +50,7 @@ class UserResponseToEventHelper: NSObject {
                                 }
                             }
                         }
-                        SVProgressHUD.dismiss()
+//                        SVProgressHUD.dismiss()
                     }catch{
                         print("Failed to load data")
                     }

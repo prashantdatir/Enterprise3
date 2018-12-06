@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import SVProgressHUD
+//import SVProgressHUD
 
 enum ENMenuItem : Int {
     case Request                = 1
@@ -39,13 +39,13 @@ extension UIViewController{
     
      func startActivity(view: UIView){
         view.isUserInteractionEnabled = false
-        SVProgressHUD.show()
+//        SVProgressHUD.show()
     }
     
      func stopActivity(view: UIView){
         DispatchQueue.main.async {
             self.view.isUserInteractionEnabled = true
-            SVProgressHUD.dismiss()
+//            SVProgressHUD.dismiss()
         }
        
     }

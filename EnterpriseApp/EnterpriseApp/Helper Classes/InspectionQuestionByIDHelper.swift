@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SVProgressHUD
+//import SVProgressHUD
 
 class InspectionQuestionByIDHelper: NSObject {
     
@@ -53,7 +53,7 @@ class InspectionQuestionByIDHelper: NSObject {
                             }
                         }
                     }
-                    SVProgressHUD.dismiss()
+//                    SVProgressHUD.dismiss()
                 } catch let error as NSError {
                     print("Catch Failed to load: \(error.localizedDescription)")
                 }

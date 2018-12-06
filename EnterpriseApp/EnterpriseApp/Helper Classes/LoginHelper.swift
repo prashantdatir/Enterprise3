@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SVProgressHUD
+//import SVProgressHUD
 
 class LoginHelper: NSObject {
 
@@ -53,7 +53,7 @@ class LoginHelper: NSObject {
                             self.delegate?.didFailWith(tagValue: GET_COMPLETED_EVENT_LIST_API_TAG)
                         }
                     }
-                    SVProgressHUD.dismiss()
+//                    SVProgressHUD.dismiss()
                 } catch let error as NSError {
                     print("Catch Failed to load: \(error.localizedDescription)")
                 }

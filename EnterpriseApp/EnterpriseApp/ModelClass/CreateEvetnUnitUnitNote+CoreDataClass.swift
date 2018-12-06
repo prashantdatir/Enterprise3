@@ -21,7 +21,7 @@ public class CreateEvetnUnitUnitNote: NSManagedObject {
             var createEventUnitUnitNoteDataObj : CreateEvetnUnitUnitNote?
             if createEventUnitUnitNoteDataObj == nil
             {
-//                createEventUnitUnitNoteDataObj = CreateEvetnUnitUnitNote.mr_createEntity(in: context)!
+ //               createEventUnitUnitNoteDataObj = CreateEvetnUnitUnitNote.mr_createEntity(in: context)!
             }
             if saveUnitUnitNoteDict != nil
             {
