@@ -1,0 +1,29 @@
+//
+//  Enterprise-prefix.pch
+//  Enterprise
+//
+//  Created by user on 11/2/18.
+//  Copyright © 2018 admin. All rights reserved.
+//
+
+//#ifndef Enterprise_prefix_pch
+//#define Enterprise_prefix_pch
+//
+//// Include any system framework and library headers here that should be included in all compilation units.
+//// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//
+//#endif /* Enterprise_prefix_pch */
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+// ADD: import barcode reader APIs
+#import "ZBarSDK.h"
+#endif
